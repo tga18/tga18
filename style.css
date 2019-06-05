@@ -1,0 +1,99 @@
+/*font text du titre font-family: 'Dancing Script', cursive;*/
+/*font text des autre texte font-family: 'Montserrat', sans-serif;*/
+body{
+
+	font-family: 'Montserrat', sans-serif;
+	background-color: #D9BEB4;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+header{
+
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	width: 100%;
+	background-color: #BF9484;
+	margin: -20px;
+	margin-left: 0;
+	top: 0px;
+}
+
+
+nav{
+	width: 100%;
+	background-color: #73564C;
+	margin: -23px;
+	margin-left: 0;
+
+}
+
+
+nav ul{
+
+	margin: 0px;
+	padding: 0px;
+
+
+}
+
+nav  ul::after{
+
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav ul li{
+
+	float: left;
+	position: relative;
+
+}
+
+nav a{
+
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav ul li a{
+
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav li{
+
+	list-style-type: none;
+}
+
+
+
+.submenu{
+
+	display: none;
+
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+
+.submenu li a{
+
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
